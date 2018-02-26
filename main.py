@@ -128,8 +128,8 @@ class WebhookHandler(webapp2.RequestHandler):
 
         # CUSTOMIZE FROM HERE
 
-        elif 'who are you' in text:
-            reply('telebot starter kit, created by yukuku: https://github.com/yukuku/telebot')
+        elif '你好' in text:
+            reply('triple reality bot starter, created by wanglin')
         elif 'what time' in text:
             reply('look at the corner of your screen!')
         else:
